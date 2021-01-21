@@ -1,0 +1,48 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--carrotbg);
+}
+
+.nav-button {
+  position: relative;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.nav-link {
+  color: inherit;
+}
+
+.nav-notification__lg {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: tomato;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 15px;
+  bottom: 15px;
+  color: white;
+}
+
+.nav-notification__sm {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background-color: tomato;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 35px;
+  bottom: 30px;
+  color: white;
+}
