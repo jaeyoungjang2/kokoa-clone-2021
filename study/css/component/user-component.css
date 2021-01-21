@@ -1,0 +1,25 @@
+.user-component {
+  display: flex;
+}
+
+.user-component__avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 5px;
+  width: 70px;
+  height: 70px;
+
+  border-radius: 30px;
+  border: 1px solid var(--carrot);
+}
+
+.user-component__text {
+}
+
+.user-component__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
