@@ -19,3 +19,7 @@ body {
 .body-color__carrot {
   background-color: var(--carrotbg);
 }
+
+.main-display__set {
+  padding: 0px 25px;
+}
