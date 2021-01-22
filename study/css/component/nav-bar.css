@@ -1,48 +1,31 @@
 .nav {
   position: fixed;
-  bottom: 0;
+  bottom: 0px;
   width: 100%;
-  background-color: var(--carrotbg);
-}
-
-.nav-button {
-  position: relative;
+  background-color: rgba(255, 138, 61, 0.2);
 }
 
 .nav-list {
+  padding: 20px 25px;
   display: flex;
   justify-content: space-between;
-  padding: 20px 40px;
 }
 
-.nav-link {
-  color: inherit;
+.nav-btn {
+  position: relative;
 }
 
-.nav-notification__lg {
+.nav-notification {
   position: absolute;
-  width: 30px;
-  height: 30px;
-  border-radius: 15px;
+  width: 26px;
+  height: 26px;
+  border-radius: 13px;
   background-color: tomato;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   left: 15px;
   bottom: 15px;
-  color: white;
-}
-
-.nav-notification__sm {
-  position: absolute;
-  width: 6px;
-  height: 6px;
-  border-radius: 3px;
-  background-color: tomato;
   display: flex;
-  align-items: center;
   justify-content: center;
-  left: 35px;
-  bottom: 30px;
-  color: white;
+  align-items: center;
+  color: #ffffff;
+  font-size: 14px;
 }
