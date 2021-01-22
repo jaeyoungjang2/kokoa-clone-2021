@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body class="body-color__carrot">
     <div class="status-bar">
         <div class="status-bar__column">
             <span>No Service</span>
@@ -23,53 +23,75 @@
         </div>
     </div>
 
-    <main>
-        <div class="screen-header">
-            <div class="screen-header__column">
-                Friends
+    <header class="screen-header">
+        <div class="screen-header__title">
+            <span>Friends</span>
+        </div>
+        <div class="screen-header__icon">
+            <span class="screen-header__icon-each"><i class="fas fa-search fa-lg"></i></span>
+            <span class="screen-header__icon-each"><i class="fas fa-music fa-lg"></i></span>
+            <span class="screen-header__icon-each"><i class="fas fa-cog fa-lg"></i></span>
+        </div>
+    </header>
+    
+    <a href="#" id="Friend-name__display">
+        <i class="fas fa-info-circle"></i>
+        Friends' Names Display
+        <i class="fas fa-chevron-right fa-xs"></i>
+    </a>
+
+    <main class="main-display__set">
+        <div class="user-component">
+            <div class="user-component__left">
+                <img class="user-component__avatar" src="https://cdn.pixabay.com/photo/2021/01/05/07/02/torii-5889982_1280.jpg" />
+                <div>
+                    <h4 class="user-component__nickname">Jae young</h4>
+                    <!--<h6 class="user-component__subtitle">Text whatever</h6>-->
+                </div>
             </div>
-            <div class="screen-header__column">
-                <span class="screen-header__icon"><i class="fas fa-search fa-lg"></i></span>
-                <span class="screen-header__icon"><i class="fas fa-music fa-lg"></i></span>
-                <span class="screen-header__icon"><i class="fas fa-cog fa-lg"></i></span>
+            <div>
+
             </div>
         </div>
-        
-        <a href="#" class="friends-header__link">
-            <i class="fas fa-info-circle"></i>
-            <span>Friends' Names Display</span>
-            <i class="fas fa-chevron-right"></i>
-        </a>
+
+        <div class="friend-screen__channel">
+            <div>
+                <span>Channel</span>
+            </div>
+            <div>
+                <i class="fas fa-chevron-up fa-xs"></i>
+            </div>
+        </div>
 
         <div class="user-component">
-            <img src="https://image.shutterstock.com/image-vector/carrot-icon-600w-257063938.jpg" class="user-component__avatar" />
-            <div class="user-component__text">
-                <span class="user-component__title">jaeyoung</span>
-                <span>text whatever</span>
+            <div class="user-component__left">
+                <img class="user-component__avatar user-component__avatar-xs" src="https://cdn.pixabay.com/photo/2021/01/05/07/02/torii-5889982_1280.jpg" />
+                <div>
+                    <h4 class="user-component__nickname user-component__nickname-xs">Jae young</h4>
+                    <!--<h6 class="user-component__subtitle">Text whatever</h6>-->
+                </div>
+            </div>
+            <div class="user-component__right">
+                2 <i class="fas fa-chevron-right fa-xs"></i>
             </div>
         </div>
+
     </main>
-
-
+    
     <nav class="nav">
         <ul class="nav-list">
-            <li class="nav-button">
-                <a class="nav-link" href="#"><i class="fas fa-user fa-2x"></i></a>
+            <li><i class="fas fa-user fa-2x"></i></li>
+            <li class="nav-btn">
+                <i class="far fa-comment fa-2x"></i>
+                <span class="nav-notification">2</span>
             </li>
-            <li class="nav-button">
-                <a class="nav-link" href="#"><i class="far fa-comment fa-2x"></i></a>
-                <span class="nav-notification__lg">1</span>
+            <li>
+                <i class="fas fa-search fa-2x"></i>
+                
             </li>
-            <li class="nav-button">
-                <a class="nav-link" href="#"><i class="fas fa-search fa-2x"></i></a>
-            </li>
-            <li class="nav-button">
-                <a class="nav-link" href="#"><i class="fas fa-ellipsis-h fa-2x"></i></a>
-                <span class="nav-notification__sm"></span>
-            </li>
+            <li><i class="fas fa-ellipsis-h fa-2x"></i></li>
         </ul>
     </nav>
-    
 
     <script src="http://kit.fontawesome.com/6478f529f2.js" crossorgin="anonymous"></script>
 </body>
