@@ -1,25 +1,41 @@
-.user-component {
-  display: flex;
+.main-display__set {
+  margin: 0px, 25px;
 }
 
 .user-component__avatar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  margin-right: 5px;
   width: 70px;
   height: 70px;
-
   border-radius: 30px;
-  border: 1px solid var(--carrot);
+  margin-right: 15px;
 }
 
-.user-component__text {
-}
-
-.user-component__title {
+.user-component__left {
   display: flex;
-  justify-content: center;
+  align-items: center;
+}
+
+.user-component__nickname {
+  display: block;
+  font-size: 22px;
+}
+
+.user-component__subtitle {
+  color: rgba(0, 0, 0, 0.4);
+  margin-top: 8px;
+}
+
+.user-component__avatar-xs {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+}
+
+.user-component__nickname-xs {
+  font-size: 17px;
+}
+
+.user-component {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
